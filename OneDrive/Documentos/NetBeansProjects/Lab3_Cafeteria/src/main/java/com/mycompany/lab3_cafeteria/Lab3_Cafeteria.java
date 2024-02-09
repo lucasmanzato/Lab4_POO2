@@ -17,13 +17,13 @@ public class Lab3_Cafeteria {
         int opcao;
         
         do{
-            System.out.println("--------------------------------");
+            System.out.println("-----------------------------------");
             System.out.println("Escolha Seu café");
             System.out.println("1- Cafe Expresso------------R$10,00");
             System.out.println("2- Cafe Descafeinad---------R$12,00");
             System.out.println("0- Sair");
             System.out.println("Digite a Opcao: ");
-            System.out.println("--------------------------------");
+            System.out.println("-----------------------------------");
             opcao = scanner.nextInt();
             
             switch(opcao){
