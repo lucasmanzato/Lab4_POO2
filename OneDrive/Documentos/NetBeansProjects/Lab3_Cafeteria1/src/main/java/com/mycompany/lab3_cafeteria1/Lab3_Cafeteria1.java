@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.mycompany.lab3_cafeteria;
+package com.mycompany.lab3_cafeteria1;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author lucas
  */
-public class Lab3_Cafeteria {
+public class Lab3_Cafeteria1 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

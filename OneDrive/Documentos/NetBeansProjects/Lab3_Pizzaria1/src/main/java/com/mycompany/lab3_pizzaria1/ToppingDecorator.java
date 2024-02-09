@@ -2,21 +2,29 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.lab3_cafeteria;
+package com.mycompany.lab3_pizzaria1;
 
 /**
  *
  * @author lucas
  */
-public class Expresso implements Cafe{
+public class ToppingDecorator implements Pizza {
     
+    Pizza pizza;
+    
+    public ToppingDecorator(Pizza pizza) {
+        this.pizza = pizza;
+    }
+
     @Override
     public double custo() {
-        return 10.00;
+        return pizza.custo();
     }
 
     @Override
     public String getDescricao() {
-        return "Cafe Espresso";
+        return pizza.getDescricao();
     }
+    
+    
 }
